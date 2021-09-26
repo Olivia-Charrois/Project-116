@@ -1,0 +1,30 @@
+h3
+{
+ font-size: 55px;
+}
+
+.btn-warning:hover
+{
+ background-color: deeppink;
+}
+
+.btn-primary
+{
+ background-color: deepskyblue;
+}
+
+canvas
+{
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ border: 5px;
+ border-radius:15px;
+ border-style: solid;
+}
+
+@keyframes example
+{
+ from {box-shadow: 1px 1px 38px rgb(23, 5, 71)}
+ to {box-shadow: 1px 1px 38px rgb(30, 4, 48);}
+}
